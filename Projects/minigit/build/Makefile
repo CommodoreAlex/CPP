@@ -129,6 +129,30 @@ minigit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/build
 .PHONY : minigit/fast
 
+src/checkout.o: src/checkout.cpp.o
+.PHONY : src/checkout.o
+
+# target to build an object file
+src/checkout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/checkout.cpp.o
+.PHONY : src/checkout.cpp.o
+
+src/checkout.i: src/checkout.cpp.i
+.PHONY : src/checkout.i
+
+# target to preprocess a source file
+src/checkout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/checkout.cpp.i
+.PHONY : src/checkout.cpp.i
+
+src/checkout.s: src/checkout.cpp.s
+.PHONY : src/checkout.s
+
+# target to generate assembly for a file
+src/checkout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/checkout.cpp.s
+.PHONY : src/checkout.cpp.s
+
 src/commit.o: src/commit.cpp.o
 .PHONY : src/commit.o
 
@@ -152,6 +176,30 @@ src/commit.s: src/commit.cpp.s
 src/commit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/commit.cpp.s
 .PHONY : src/commit.cpp.s
+
+src/head_utils.o: src/head_utils.cpp.o
+.PHONY : src/head_utils.o
+
+# target to build an object file
+src/head_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/head_utils.cpp.o
+.PHONY : src/head_utils.cpp.o
+
+src/head_utils.i: src/head_utils.cpp.i
+.PHONY : src/head_utils.i
+
+# target to preprocess a source file
+src/head_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/head_utils.cpp.i
+.PHONY : src/head_utils.cpp.i
+
+src/head_utils.s: src/head_utils.cpp.s
+.PHONY : src/head_utils.s
+
+# target to generate assembly for a file
+src/head_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/head_utils.cpp.s
+.PHONY : src/head_utils.cpp.s
 
 src/index.o: src/index.cpp.o
 .PHONY : src/index.o
@@ -354,9 +402,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... minigit"
+	@echo "... src/checkout.o"
+	@echo "... src/checkout.i"
+	@echo "... src/checkout.s"
 	@echo "... src/commit.o"
 	@echo "... src/commit.i"
 	@echo "... src/commit.s"
+	@echo "... src/head_utils.o"
+	@echo "... src/head_utils.i"
+	@echo "... src/head_utils.s"
 	@echo "... src/index.o"
 	@echo "... src/index.i"
 	@echo "... src/index.s"

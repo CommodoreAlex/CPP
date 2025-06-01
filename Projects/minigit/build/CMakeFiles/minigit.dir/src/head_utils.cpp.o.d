@@ -1,7 +1,7 @@
-CMakeFiles/minigit.dir/src/object_store.cpp.o: \
- /home/kali/C++/minigit/Projects/minigit/src/object_store.cpp \
+CMakeFiles/minigit.dir/src/head_utils.cpp.o: \
+ /home/kali/C++/minigit/Projects/minigit/src/head_utils.cpp \
  /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/Projects/minigit/src/object_store.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/head_utils.hpp \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -118,7 +118,6 @@ CMakeFiles/minigit.dir/src/object_store.cpp.o: \
  /usr/include/c++/14/bits/memory_resource.h /usr/include/c++/14/cstddef \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
- /home/kali/C++/minigit/Projects/minigit/src/sha1.hpp \
  /usr/include/c++/14/fstream /usr/include/c++/14/istream \
  /usr/include/c++/14/ios /usr/include/c++/14/exception \
  /usr/include/c++/14/bits/exception_ptr.h \
@@ -166,27 +165,4 @@ CMakeFiles/minigit.dir/src/object_store.cpp.o: \
  /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/sstream \
- /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/iostream \
- /usr/include/c++/14/filesystem /usr/include/c++/14/bits/fs_fwd.h \
- /usr/include/c++/14/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
- /usr/include/c++/14/limits /usr/include/c++/14/ctime \
- /usr/include/c++/14/bits/parse_numbers.h \
- /usr/include/c++/14/bits/fs_path.h /usr/include/c++/14/locale \
- /usr/include/c++/14/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/14/bits/locale_facets_nonio.tcc \
- /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/iomanip \
- /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/codecvt \
- /usr/include/c++/14/ext/concurrence.h \
- /usr/include/c++/14/bits/shared_ptr.h \
- /usr/include/c++/14/bits/shared_ptr_base.h \
- /usr/include/c++/14/bits/allocated_ptr.h \
- /usr/include/c++/14/bits/unique_ptr.h \
- /usr/include/c++/14/ext/aligned_buffer.h \
- /usr/include/c++/14/bits/fs_dir.h /usr/include/c++/14/bits/fs_ops.h
+ /usr/include/c++/14/bits/fstream.tcc

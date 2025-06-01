@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kali/C++/minigit/Projects/minigit/src/checkout.cpp" "CMakeFiles/minigit.dir/src/checkout.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/checkout.cpp.o.d"
   "/home/kali/C++/minigit/Projects/minigit/src/commit.cpp" "CMakeFiles/minigit.dir/src/commit.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/commit.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/head_utils.cpp" "CMakeFiles/minigit.dir/src/head_utils.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/head_utils.cpp.o.d"
   "/home/kali/C++/minigit/Projects/minigit/src/index.cpp" "CMakeFiles/minigit.dir/src/index.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/index.cpp.o.d"
   "/home/kali/C++/minigit/Projects/minigit/src/log.cpp" "CMakeFiles/minigit.dir/src/log.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/log.cpp.o.d"
   "/home/kali/C++/minigit/Projects/minigit/src/main.cpp" "CMakeFiles/minigit.dir/src/main.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/main.cpp.o.d"

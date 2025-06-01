@@ -12,3 +12,5 @@ struct Commit {
 };
 
 std::string createCommit(const std::string& message);
+
+Commit loadCommit(const std::string& id);

@@ -5,6 +5,8 @@
 #include "index.hpp"
 #include "commit.hpp"
 #include "log.hpp"
+#include "checkout.hpp"
+#include "head_utils.hpp"   // <-- include the header here
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -80,20 +82,21 @@ int main(int argc, char* argv[]) {
         std::string commitId = createCommit(message);
         if (commitId.empty()) return 1;
     } else if (command == "log") {
-        std::ifstream headFile(".minigit/HEAD");
-        if(!headFile) {
-            std::cerr << "Repository not initialized or no commits yet.\n";
-            return 1;
-        }
-
-        std::string headCommitId;
-        std::getline(headFile, headCommitId);
+        std::string headCommitId = resolveHEAD();  // Use resolveHEAD() here
         if (headCommitId.empty()) {
-            std::cerr << "No commits found.\n";
+            std::cerr << "No commits found or repository not initialized.\n";
             return 1;
         }
 
         printLog(headCommitId);
+    } else if (command == "checkout") {
+        if (argc != 3) {
+            std::cerr << "Usage: minigit checkout <commit-id>\n";
+            return 1;
+        }
+
+        std::string commitId = argv[2];
+        if (!checkoutCommit(commitId)) return 1;
     } else {
         cerr << "Unknown command: " << command << "\n";
         printHelp(COLOR_ENABLED);

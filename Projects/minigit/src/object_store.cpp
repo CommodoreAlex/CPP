@@ -1,14 +1,16 @@
 #include "object_store.hpp"
+#include "sha1.hpp"
 #include <fstream>
 #include <sstream>
 #include <iostream>
 #include <filesystem>
 using namespace std;
 
-// Include your SHA-1 implementation here or in a separate file
-#include "sha1.hpp"
-
 namespace fs = std::filesystem;
+
+std::string getBlobPath(const std::string& hash) {
+    return ".minigit/objects/" + hash.substr(0, 2) + "/" + hash.substr(2);
+}
 
 string addBlob(const string& filePath) {
 

@@ -7,7 +7,7 @@
 // Load commit data from the object file into Commit struct
 Commit loadCommit(const std::string& commitId) {
     Commit commit;
-    std::ifstream in(".minigit/objects/" + commitId);
+    std::ifstream in(".minigit/commits/" + commitId);
 
     if (!in) {
         std::cerr << "Failed to open commit object: " << commitId << "\n";
@@ -16,7 +16,6 @@ Commit loadCommit(const std::string& commitId) {
 
     std::string line;
     while (std::getline(in, line)) {
-        // Parse the lines based on your commitToString format
         if (line.find("id: ") == 0) {
             commit.id = line.substr(4);
         } else if (line.find("message: ") == 0) {
@@ -25,12 +24,17 @@ Commit loadCommit(const std::string& commitId) {
             commit.timestamp = line.substr(11);
         } else if (line.find("parent: ") == 0) {
             commit.parent = line.substr(8);
+        } else if (line.find("file: ") == 0) {
+            // line format: file: <filename> <hash>
+            std::istringstream iss(line.substr(6));
+            std::string filename, hash;
+            iss >> filename >> hash;
+            commit.files[filename] = hash;
         }
-
-        // Extend parsing for files if needed
     }
     return commit;
 }
+
 
 void printLog(const std::string& commitId) {
     if (commitId.empty()) return;

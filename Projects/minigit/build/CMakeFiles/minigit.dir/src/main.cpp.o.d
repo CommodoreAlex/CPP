@@ -132,6 +132,8 @@ CMakeFiles/minigit.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/erase_if.h \
  /home/kali/C++/minigit/Projects/minigit/src/commit.hpp \
  /home/kali/C++/minigit/Projects/minigit/src/log.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/checkout.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/head_utils.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
  /usr/include/c++/14/ios /usr/include/c++/14/exception \
  /usr/include/c++/14/bits/exception_ptr.h \

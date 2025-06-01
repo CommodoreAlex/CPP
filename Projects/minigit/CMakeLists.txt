@@ -14,5 +14,7 @@ add_executable(minigit
     src/index.cpp
     src/commit.cpp
     src/log.cpp
+    src/checkout.cpp
+    src/head_utils.cpp
 )
 

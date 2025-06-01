@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/minigit.dir/link.d"
+  "CMakeFiles/minigit.dir/src/checkout.cpp.o"
+  "CMakeFiles/minigit.dir/src/checkout.cpp.o.d"
   "CMakeFiles/minigit.dir/src/commit.cpp.o"
   "CMakeFiles/minigit.dir/src/commit.cpp.o.d"
+  "CMakeFiles/minigit.dir/src/head_utils.cpp.o"
+  "CMakeFiles/minigit.dir/src/head_utils.cpp.o.d"
   "CMakeFiles/minigit.dir/src/index.cpp.o"
   "CMakeFiles/minigit.dir/src/index.cpp.o.d"
   "CMakeFiles/minigit.dir/src/log.cpp.o"

@@ -127,6 +127,7 @@ CMakeFiles/minigit.dir/src/commit.cpp.o: \
  /usr/include/c++/14/bits/node_handle.h \
  /usr/include/c++/14/bits/erase_if.h \
  /home/kali/C++/minigit/Projects/minigit/src/sha1.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/log.hpp \
  /home/kali/C++/minigit/Projects/minigit/src/index.hpp \
  /home/kali/C++/minigit/Projects/minigit/src/object_store.hpp \
  /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
@@ -197,4 +198,11 @@ CMakeFiles/minigit.dir/src/commit.cpp.o: \
  /usr/include/c++/14/bits/shared_ptr_base.h \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/bits/unique_ptr.h /usr/include/c++/14/bits/fs_dir.h \
- /usr/include/c++/14/bits/fs_ops.h /usr/include/c++/14/iostream
+ /usr/include/c++/14/bits/fs_ops.h /usr/include/c++/14/iostream \
+ /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/algorithmfwd.h \
+ /usr/include/c++/14/bits/stl_heap.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/c++/14/bits/stl_tempbuf.h \
+ /usr/include/c++/14/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/14/pstl/execution_defs.h
