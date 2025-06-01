@@ -1,7 +1,8 @@
 CMakeFiles/minigit.dir/src/index.cpp.o: \
- /home/kali/C++/minigit/src/index.cpp /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/src/index.hpp /usr/include/c++/14/string \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/kali/C++/minigit/Projects/minigit/src/index.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kali/C++/minigit/Projects/minigit/src/index.hpp \
+ /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

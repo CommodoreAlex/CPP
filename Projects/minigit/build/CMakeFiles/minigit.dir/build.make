@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kali/C++/minigit
+CMAKE_SOURCE_DIR = /home/kali/C++/minigit/Projects/minigit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kali/C++/minigit/build
+CMAKE_BINARY_DIR = /home/kali/C++/minigit/Projects/minigit/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/minigit.dir/depend.make
@@ -73,102 +73,130 @@ CMakeFiles/minigit.dir/codegen:
 .PHONY : CMakeFiles/minigit.dir/codegen
 
 CMakeFiles/minigit.dir/src/main.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/main.cpp.o: /home/kali/C++/minigit/src/main.cpp
+CMakeFiles/minigit.dir/src/main.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/main.cpp
 CMakeFiles/minigit.dir/src/main.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minigit.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/main.cpp.o -MF CMakeFiles/minigit.dir/src/main.cpp.o.d -o CMakeFiles/minigit.dir/src/main.cpp.o -c /home/kali/C++/minigit/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minigit.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/main.cpp.o -MF CMakeFiles/minigit.dir/src/main.cpp.o.d -o CMakeFiles/minigit.dir/src/main.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/main.cpp
 
 CMakeFiles/minigit.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/main.cpp > CMakeFiles/minigit.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/main.cpp > CMakeFiles/minigit.dir/src/main.cpp.i
 
 CMakeFiles/minigit.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/main.cpp -o CMakeFiles/minigit.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/main.cpp -o CMakeFiles/minigit.dir/src/main.cpp.s
 
 CMakeFiles/minigit.dir/src/repository.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/repository.cpp.o: /home/kali/C++/minigit/src/repository.cpp
+CMakeFiles/minigit.dir/src/repository.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/repository.cpp
 CMakeFiles/minigit.dir/src/repository.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minigit.dir/src/repository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/repository.cpp.o -MF CMakeFiles/minigit.dir/src/repository.cpp.o.d -o CMakeFiles/minigit.dir/src/repository.cpp.o -c /home/kali/C++/minigit/src/repository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minigit.dir/src/repository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/repository.cpp.o -MF CMakeFiles/minigit.dir/src/repository.cpp.o.d -o CMakeFiles/minigit.dir/src/repository.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/repository.cpp
 
 CMakeFiles/minigit.dir/src/repository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/repository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/repository.cpp > CMakeFiles/minigit.dir/src/repository.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/repository.cpp > CMakeFiles/minigit.dir/src/repository.cpp.i
 
 CMakeFiles/minigit.dir/src/repository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/repository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/repository.cpp -o CMakeFiles/minigit.dir/src/repository.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/repository.cpp -o CMakeFiles/minigit.dir/src/repository.cpp.s
 
 CMakeFiles/minigit.dir/src/object_store.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/object_store.cpp.o: /home/kali/C++/minigit/src/object_store.cpp
+CMakeFiles/minigit.dir/src/object_store.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/object_store.cpp
 CMakeFiles/minigit.dir/src/object_store.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/minigit.dir/src/object_store.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/object_store.cpp.o -MF CMakeFiles/minigit.dir/src/object_store.cpp.o.d -o CMakeFiles/minigit.dir/src/object_store.cpp.o -c /home/kali/C++/minigit/src/object_store.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/minigit.dir/src/object_store.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/object_store.cpp.o -MF CMakeFiles/minigit.dir/src/object_store.cpp.o.d -o CMakeFiles/minigit.dir/src/object_store.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/object_store.cpp
 
 CMakeFiles/minigit.dir/src/object_store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/object_store.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/object_store.cpp > CMakeFiles/minigit.dir/src/object_store.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/object_store.cpp > CMakeFiles/minigit.dir/src/object_store.cpp.i
 
 CMakeFiles/minigit.dir/src/object_store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/object_store.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/object_store.cpp -o CMakeFiles/minigit.dir/src/object_store.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/object_store.cpp -o CMakeFiles/minigit.dir/src/object_store.cpp.s
 
 CMakeFiles/minigit.dir/src/sha1.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/sha1.cpp.o: /home/kali/C++/minigit/src/sha1.cpp
+CMakeFiles/minigit.dir/src/sha1.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/sha1.cpp
 CMakeFiles/minigit.dir/src/sha1.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/minigit.dir/src/sha1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/sha1.cpp.o -MF CMakeFiles/minigit.dir/src/sha1.cpp.o.d -o CMakeFiles/minigit.dir/src/sha1.cpp.o -c /home/kali/C++/minigit/src/sha1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/minigit.dir/src/sha1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/sha1.cpp.o -MF CMakeFiles/minigit.dir/src/sha1.cpp.o.d -o CMakeFiles/minigit.dir/src/sha1.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/sha1.cpp
 
 CMakeFiles/minigit.dir/src/sha1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/sha1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/sha1.cpp > CMakeFiles/minigit.dir/src/sha1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/sha1.cpp > CMakeFiles/minigit.dir/src/sha1.cpp.i
 
 CMakeFiles/minigit.dir/src/sha1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/sha1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/sha1.cpp -o CMakeFiles/minigit.dir/src/sha1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/sha1.cpp -o CMakeFiles/minigit.dir/src/sha1.cpp.s
 
 CMakeFiles/minigit.dir/src/terminal_utils.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/terminal_utils.cpp.o: /home/kali/C++/minigit/src/terminal_utils.cpp
+CMakeFiles/minigit.dir/src/terminal_utils.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.cpp
 CMakeFiles/minigit.dir/src/terminal_utils.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/minigit.dir/src/terminal_utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/terminal_utils.cpp.o -MF CMakeFiles/minigit.dir/src/terminal_utils.cpp.o.d -o CMakeFiles/minigit.dir/src/terminal_utils.cpp.o -c /home/kali/C++/minigit/src/terminal_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/minigit.dir/src/terminal_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/terminal_utils.cpp.o -MF CMakeFiles/minigit.dir/src/terminal_utils.cpp.o.d -o CMakeFiles/minigit.dir/src/terminal_utils.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.cpp
 
 CMakeFiles/minigit.dir/src/terminal_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/terminal_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/terminal_utils.cpp > CMakeFiles/minigit.dir/src/terminal_utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.cpp > CMakeFiles/minigit.dir/src/terminal_utils.cpp.i
 
 CMakeFiles/minigit.dir/src/terminal_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/terminal_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/terminal_utils.cpp -o CMakeFiles/minigit.dir/src/terminal_utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.cpp -o CMakeFiles/minigit.dir/src/terminal_utils.cpp.s
 
 CMakeFiles/minigit.dir/src/status.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/status.cpp.o: /home/kali/C++/minigit/src/status.cpp
+CMakeFiles/minigit.dir/src/status.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/status.cpp
 CMakeFiles/minigit.dir/src/status.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/minigit.dir/src/status.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/status.cpp.o -MF CMakeFiles/minigit.dir/src/status.cpp.o.d -o CMakeFiles/minigit.dir/src/status.cpp.o -c /home/kali/C++/minigit/src/status.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/minigit.dir/src/status.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/status.cpp.o -MF CMakeFiles/minigit.dir/src/status.cpp.o.d -o CMakeFiles/minigit.dir/src/status.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/status.cpp
 
 CMakeFiles/minigit.dir/src/status.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/status.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/status.cpp > CMakeFiles/minigit.dir/src/status.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/status.cpp > CMakeFiles/minigit.dir/src/status.cpp.i
 
 CMakeFiles/minigit.dir/src/status.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/status.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/status.cpp -o CMakeFiles/minigit.dir/src/status.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/status.cpp -o CMakeFiles/minigit.dir/src/status.cpp.s
 
 CMakeFiles/minigit.dir/src/index.cpp.o: CMakeFiles/minigit.dir/flags.make
-CMakeFiles/minigit.dir/src/index.cpp.o: /home/kali/C++/minigit/src/index.cpp
+CMakeFiles/minigit.dir/src/index.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/index.cpp
 CMakeFiles/minigit.dir/src/index.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/minigit.dir/src/index.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/index.cpp.o -MF CMakeFiles/minigit.dir/src/index.cpp.o.d -o CMakeFiles/minigit.dir/src/index.cpp.o -c /home/kali/C++/minigit/src/index.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/minigit.dir/src/index.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/index.cpp.o -MF CMakeFiles/minigit.dir/src/index.cpp.o.d -o CMakeFiles/minigit.dir/src/index.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/index.cpp
 
 CMakeFiles/minigit.dir/src/index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/index.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/src/index.cpp > CMakeFiles/minigit.dir/src/index.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/index.cpp > CMakeFiles/minigit.dir/src/index.cpp.i
 
 CMakeFiles/minigit.dir/src/index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/index.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/src/index.cpp -o CMakeFiles/minigit.dir/src/index.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/index.cpp -o CMakeFiles/minigit.dir/src/index.cpp.s
+
+CMakeFiles/minigit.dir/src/commit.cpp.o: CMakeFiles/minigit.dir/flags.make
+CMakeFiles/minigit.dir/src/commit.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/commit.cpp
+CMakeFiles/minigit.dir/src/commit.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/minigit.dir/src/commit.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/commit.cpp.o -MF CMakeFiles/minigit.dir/src/commit.cpp.o.d -o CMakeFiles/minigit.dir/src/commit.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/commit.cpp
+
+CMakeFiles/minigit.dir/src/commit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/commit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/commit.cpp > CMakeFiles/minigit.dir/src/commit.cpp.i
+
+CMakeFiles/minigit.dir/src/commit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/commit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/commit.cpp -o CMakeFiles/minigit.dir/src/commit.cpp.s
+
+CMakeFiles/minigit.dir/src/log.cpp.o: CMakeFiles/minigit.dir/flags.make
+CMakeFiles/minigit.dir/src/log.cpp.o: /home/kali/C++/minigit/Projects/minigit/src/log.cpp
+CMakeFiles/minigit.dir/src/log.cpp.o: CMakeFiles/minigit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/minigit.dir/src/log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minigit.dir/src/log.cpp.o -MF CMakeFiles/minigit.dir/src/log.cpp.o.d -o CMakeFiles/minigit.dir/src/log.cpp.o -c /home/kali/C++/minigit/Projects/minigit/src/log.cpp
+
+CMakeFiles/minigit.dir/src/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minigit.dir/src/log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/C++/minigit/Projects/minigit/src/log.cpp > CMakeFiles/minigit.dir/src/log.cpp.i
+
+CMakeFiles/minigit.dir/src/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minigit.dir/src/log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/C++/minigit/Projects/minigit/src/log.cpp -o CMakeFiles/minigit.dir/src/log.cpp.s
 
 # Object files for target minigit
 minigit_OBJECTS = \
@@ -178,7 +206,9 @@ minigit_OBJECTS = \
 "CMakeFiles/minigit.dir/src/sha1.cpp.o" \
 "CMakeFiles/minigit.dir/src/terminal_utils.cpp.o" \
 "CMakeFiles/minigit.dir/src/status.cpp.o" \
-"CMakeFiles/minigit.dir/src/index.cpp.o"
+"CMakeFiles/minigit.dir/src/index.cpp.o" \
+"CMakeFiles/minigit.dir/src/commit.cpp.o" \
+"CMakeFiles/minigit.dir/src/log.cpp.o"
 
 # External object files for target minigit
 minigit_EXTERNAL_OBJECTS =
@@ -190,10 +220,12 @@ minigit: CMakeFiles/minigit.dir/src/sha1.cpp.o
 minigit: CMakeFiles/minigit.dir/src/terminal_utils.cpp.o
 minigit: CMakeFiles/minigit.dir/src/status.cpp.o
 minigit: CMakeFiles/minigit.dir/src/index.cpp.o
+minigit: CMakeFiles/minigit.dir/src/commit.cpp.o
+minigit: CMakeFiles/minigit.dir/src/log.cpp.o
 minigit: CMakeFiles/minigit.dir/build.make
 minigit: CMakeFiles/minigit.dir/compiler_depend.ts
 minigit: CMakeFiles/minigit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kali/C++/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable minigit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kali/C++/minigit/Projects/minigit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable minigit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minigit.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -205,6 +237,6 @@ CMakeFiles/minigit.dir/clean:
 .PHONY : CMakeFiles/minigit.dir/clean
 
 CMakeFiles/minigit.dir/depend:
-	cd /home/kali/C++/minigit/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kali/C++/minigit /home/kali/C++/minigit /home/kali/C++/minigit/build /home/kali/C++/minigit/build /home/kali/C++/minigit/build/CMakeFiles/minigit.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kali/C++/minigit/Projects/minigit/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kali/C++/minigit/Projects/minigit /home/kali/C++/minigit/Projects/minigit /home/kali/C++/minigit/Projects/minigit/build /home/kali/C++/minigit/Projects/minigit/build /home/kali/C++/minigit/Projects/minigit/build/CMakeFiles/minigit.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/minigit.dir/depend
 

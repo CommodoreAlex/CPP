@@ -1,7 +1,8 @@
 CMakeFiles/minigit.dir/src/repository.cpp.o: \
- /home/kali/C++/minigit/src/repository.cpp /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/src/repository.hpp /usr/include/c++/14/iostream \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/kali/C++/minigit/Projects/minigit/src/repository.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kali/C++/minigit/Projects/minigit/src/repository.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

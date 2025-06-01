@@ -1,7 +1,8 @@
 CMakeFiles/minigit.dir/src/object_store.cpp.o: \
- /home/kali/C++/minigit/src/object_store.cpp /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/src/object_store.hpp /usr/include/c++/14/string \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/kali/C++/minigit/Projects/minigit/src/object_store.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kali/C++/minigit/Projects/minigit/src/object_store.hpp \
+ /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -188,4 +189,4 @@ CMakeFiles/minigit.dir/src/object_store.cpp.o: \
  /usr/include/c++/14/bits/unique_ptr.h \
  /usr/include/c++/14/ext/aligned_buffer.h \
  /usr/include/c++/14/bits/fs_dir.h /usr/include/c++/14/bits/fs_ops.h \
- /home/kali/C++/minigit/src/sha1.hpp
+ /home/kali/C++/minigit/Projects/minigit/src/sha1.hpp

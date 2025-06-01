@@ -8,13 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kali/C++/minigit/src/index.cpp" "CMakeFiles/minigit.dir/src/index.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/index.cpp.o.d"
-  "/home/kali/C++/minigit/src/main.cpp" "CMakeFiles/minigit.dir/src/main.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/main.cpp.o.d"
-  "/home/kali/C++/minigit/src/object_store.cpp" "CMakeFiles/minigit.dir/src/object_store.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/object_store.cpp.o.d"
-  "/home/kali/C++/minigit/src/repository.cpp" "CMakeFiles/minigit.dir/src/repository.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/repository.cpp.o.d"
-  "/home/kali/C++/minigit/src/sha1.cpp" "CMakeFiles/minigit.dir/src/sha1.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/sha1.cpp.o.d"
-  "/home/kali/C++/minigit/src/status.cpp" "CMakeFiles/minigit.dir/src/status.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/status.cpp.o.d"
-  "/home/kali/C++/minigit/src/terminal_utils.cpp" "CMakeFiles/minigit.dir/src/terminal_utils.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/terminal_utils.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/commit.cpp" "CMakeFiles/minigit.dir/src/commit.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/commit.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/index.cpp" "CMakeFiles/minigit.dir/src/index.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/index.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/log.cpp" "CMakeFiles/minigit.dir/src/log.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/log.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/main.cpp" "CMakeFiles/minigit.dir/src/main.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/main.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/object_store.cpp" "CMakeFiles/minigit.dir/src/object_store.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/object_store.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/repository.cpp" "CMakeFiles/minigit.dir/src/repository.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/repository.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/sha1.cpp" "CMakeFiles/minigit.dir/src/sha1.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/sha1.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/status.cpp" "CMakeFiles/minigit.dir/src/status.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/status.cpp.o.d"
+  "/home/kali/C++/minigit/Projects/minigit/src/terminal_utils.cpp" "CMakeFiles/minigit.dir/src/terminal_utils.cpp.o" "gcc" "CMakeFiles/minigit.dir/src/terminal_utils.cpp.o.d"
   "" "minigit" "gcc" "CMakeFiles/minigit.dir/link.d"
   )
 

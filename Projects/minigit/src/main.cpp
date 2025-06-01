@@ -3,7 +3,10 @@
 #include "terminal_utils.hpp"
 #include "status.hpp"
 #include "index.hpp"
+#include "commit.hpp"
+#include "log.hpp"
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 // ANSI Escape Codes for Color
@@ -67,6 +70,30 @@ int main(int argc, char* argv[]) {
         } else {
             return 1;
         }
+    } else if (command == "commit") {
+        if (argc != 3) {
+            cerr << "Usage: minigit commit <message>\n";
+            return 1;
+        }
+
+        std::string message = argv[2];
+        std::string commitId = createCommit(message);
+        if (commitId.empty()) return 1;
+    } else if (command == "log") {
+        std::ifstream headFile(".minigit/HEAD");
+        if(!headFile) {
+            std::cerr << "Repository not initialized or no commits yet.\n";
+            return 1;
+        }
+
+        std::string headCommitId;
+        std::getline(headFile, headCommitId);
+        if (headCommitId.empty()) {
+            std::cerr << "No commits found.\n";
+            return 1;
+        }
+
+        printLog(headCommitId);
     } else {
         cerr << "Unknown command: " << command << "\n";
         printHelp(COLOR_ENABLED);

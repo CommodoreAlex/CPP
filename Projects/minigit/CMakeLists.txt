@@ -12,5 +12,7 @@ add_executable(minigit
     src/terminal_utils.cpp
     src/status.cpp
     src/index.cpp
+    src/commit.cpp
+    src/log.cpp
 )
 

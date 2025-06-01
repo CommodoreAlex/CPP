@@ -1,6 +1,8 @@
 CMakeFiles/minigit.dir/src/terminal_utils.cpp.o: \
- /home/kali/C++/minigit/src/terminal_utils.cpp /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/src/terminal_utils.hpp /usr/include/c++/14/cstdio \
+ /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.hpp \
+ /usr/include/c++/14/cstdio \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

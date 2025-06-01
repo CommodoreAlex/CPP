@@ -1,8 +1,9 @@
 CMakeFiles/minigit.dir/src/status.cpp.o: \
- /home/kali/C++/minigit/src/status.cpp /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/src/status.hpp \
- /home/kali/C++/minigit/src/index.hpp /usr/include/c++/14/string \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/kali/C++/minigit/Projects/minigit/src/status.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kali/C++/minigit/Projects/minigit/src/status.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/index.hpp \
+ /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -126,9 +127,10 @@ CMakeFiles/minigit.dir/src/status.cpp.o: \
  /usr/include/c++/14/bits/enable_special_members.h \
  /usr/include/c++/14/bits/node_handle.h \
  /usr/include/c++/14/bits/erase_if.h \
- /home/kali/C++/minigit/src/object_store.hpp \
- /home/kali/C++/minigit/src/sha1.hpp /usr/include/c++/14/filesystem \
- /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/system_error \
+ /home/kali/C++/minigit/Projects/minigit/src/object_store.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/sha1.hpp \
+ /usr/include/c++/14/filesystem /usr/include/c++/14/bits/fs_fwd.h \
+ /usr/include/c++/14/system_error \
  /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h \
  /usr/include/c++/14/stdexcept /usr/include/c++/14/exception \
  /usr/include/c++/14/bits/exception_ptr.h \

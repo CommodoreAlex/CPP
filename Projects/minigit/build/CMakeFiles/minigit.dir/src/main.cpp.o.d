@@ -1,8 +1,9 @@
 CMakeFiles/minigit.dir/src/main.cpp.o: \
- /home/kali/C++/minigit/src/main.cpp /usr/include/stdc-predef.h \
- /home/kali/C++/minigit/src/repository.hpp \
- /home/kali/C++/minigit/src/object_store.hpp /usr/include/c++/14/string \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/kali/C++/minigit/Projects/minigit/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kali/C++/minigit/Projects/minigit/src/repository.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/object_store.hpp \
+ /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -118,18 +119,22 @@ CMakeFiles/minigit.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/memory_resource.h /usr/include/c++/14/cstddef \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
- /home/kali/C++/minigit/src/terminal_utils.hpp \
- /home/kali/C++/minigit/src/status.hpp \
- /home/kali/C++/minigit/src/index.hpp /usr/include/c++/14/unordered_map \
+ /home/kali/C++/minigit/Projects/minigit/src/terminal_utils.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/status.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/index.hpp \
+ /usr/include/c++/14/unordered_map \
  /usr/include/c++/14/bits/unordered_map.h \
  /usr/include/c++/14/bits/hashtable.h \
  /usr/include/c++/14/bits/hashtable_policy.h \
  /usr/include/c++/14/ext/aligned_buffer.h \
  /usr/include/c++/14/bits/enable_special_members.h \
  /usr/include/c++/14/bits/node_handle.h \
- /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/ostream /usr/include/c++/14/ios \
- /usr/include/c++/14/exception /usr/include/c++/14/bits/exception_ptr.h \
+ /usr/include/c++/14/bits/erase_if.h \
+ /home/kali/C++/minigit/Projects/minigit/src/commit.hpp \
+ /home/kali/C++/minigit/Projects/minigit/src/log.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
+ /usr/include/c++/14/ios /usr/include/c++/14/exception \
+ /usr/include/c++/14/bits/exception_ptr.h \
  /usr/include/c++/14/bits/cxxabi_init_exception.h \
  /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/nested_exception.h \
  /usr/include/c++/14/bits/ios_base.h /usr/include/c++/14/ext/atomicity.h \
@@ -171,4 +176,8 @@ CMakeFiles/minigit.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/locale_facets.tcc \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc
+ /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/fstream \
+ /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
+ /usr/include/c++/14/bits/fstream.tcc

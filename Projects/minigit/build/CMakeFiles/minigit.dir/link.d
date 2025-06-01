@@ -9,6 +9,8 @@ minigit: \
   CMakeFiles/minigit.dir/src/terminal_utils.cpp.o \
   CMakeFiles/minigit.dir/src/status.cpp.o \
   CMakeFiles/minigit.dir/src/index.cpp.o \
+  CMakeFiles/minigit.dir/src/commit.cpp.o \
+  CMakeFiles/minigit.dir/src/log.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
@@ -57,6 +59,10 @@ CMakeFiles/minigit.dir/src/terminal_utils.cpp.o:
 CMakeFiles/minigit.dir/src/status.cpp.o:
 
 CMakeFiles/minigit.dir/src/index.cpp.o:
+
+CMakeFiles/minigit.dir/src/commit.cpp.o:
+
+CMakeFiles/minigit.dir/src/log.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so:
 

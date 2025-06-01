@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kali/C++/minigit
+CMAKE_SOURCE_DIR = /home/kali/C++/minigit/Projects/minigit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kali/C++/minigit/build
+CMAKE_BINARY_DIR = /home/kali/C++/minigit/Projects/minigit/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kali/C++/minigit/build/CMakeFiles /home/kali/C++/minigit/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kali/C++/minigit/Projects/minigit/build/CMakeFiles /home/kali/C++/minigit/Projects/minigit/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kali/C++/minigit/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kali/C++/minigit/Projects/minigit/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ minigit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/build
 .PHONY : minigit/fast
 
+src/commit.o: src/commit.cpp.o
+.PHONY : src/commit.o
+
+# target to build an object file
+src/commit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/commit.cpp.o
+.PHONY : src/commit.cpp.o
+
+src/commit.i: src/commit.cpp.i
+.PHONY : src/commit.i
+
+# target to preprocess a source file
+src/commit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/commit.cpp.i
+.PHONY : src/commit.cpp.i
+
+src/commit.s: src/commit.cpp.s
+.PHONY : src/commit.s
+
+# target to generate assembly for a file
+src/commit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/commit.cpp.s
+.PHONY : src/commit.cpp.s
+
 src/index.o: src/index.cpp.o
 .PHONY : src/index.o
 
@@ -152,6 +176,30 @@ src/index.s: src/index.cpp.s
 src/index.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/index.cpp.s
 .PHONY : src/index.cpp.s
+
+src/log.o: src/log.cpp.o
+.PHONY : src/log.o
+
+# target to build an object file
+src/log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/log.cpp.o
+.PHONY : src/log.cpp.o
+
+src/log.i: src/log.cpp.i
+.PHONY : src/log.i
+
+# target to preprocess a source file
+src/log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/log.cpp.i
+.PHONY : src/log.cpp.i
+
+src/log.s: src/log.cpp.s
+.PHONY : src/log.s
+
+# target to generate assembly for a file
+src/log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minigit.dir/build.make CMakeFiles/minigit.dir/src/log.cpp.s
+.PHONY : src/log.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -306,9 +354,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... minigit"
+	@echo "... src/commit.o"
+	@echo "... src/commit.i"
+	@echo "... src/commit.s"
 	@echo "... src/index.o"
 	@echo "... src/index.i"
 	@echo "... src/index.s"
+	@echo "... src/log.o"
+	@echo "... src/log.i"
+	@echo "... src/log.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
