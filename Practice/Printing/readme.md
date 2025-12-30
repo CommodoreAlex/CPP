@@ -105,6 +105,11 @@ struct Vec2 {
 };
 ```
 
+You can interpret the following as such:
+```cpp
+std::ostream& operator<<(std::ostream& os, const YourType& obj);
+```
+
 You can make it printable:
 ```cpp
 std::ostream& operator<<(std::ostream& os, const Vec2& v) {
@@ -120,6 +125,11 @@ std::cout << v << "\n";
 
 This works with any stream (`std::cout`, file streams, string streams)
 ##### Extending `std::cin` (input)
+
+You can interpret the following as such:
+```cpp
+std::istream& operator>>(std::istream& is, YourType& obj);
+```
 
 You can teach C++ how to read your type:
 ```cpp
