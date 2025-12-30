@@ -154,6 +154,8 @@ Then `v.x == 3.5` and `v.y == 7,2`
 ---
 ### Why `fmt::print` is preferred as of C++ 20
 
+Background: The C++ committee adopted the design of the popular `fmt` library (by Victor Zverovich) and standardized it in C++ 20.
+
 It is the case that using the following could be preferred as of C++20:
 ```
 #include <format>
@@ -161,6 +163,36 @@ fmt::print("Hello {}, the answer is {}\n", name. value);
 ```
 
 This includes type-safety, custom types, it is fast like printf(), Pythonic, and has compile-time format checking with `fmt::compile`.
+
+Utilizing `std::format`:
+1. Pythonic-style formatting
+2. Type safety (matching `std::cout/std::cin`)
+3. A performance boost comparable to `printf`
+4. No requirements for manipulators
+5. Cleaner implementation than `printf`
+6. There is also compile-time format checking `fmt::compile`
+
+`fmt::compile` parses the format string at compile time, so the program does not have to parse it at runtime - making formatting faster, safer, more optimized, and there is zero-overhead for the format string.
+
+This pushes formatting from runtime to compile time which can give huge speed benefits.
+
+You can use this by:
+```cpp
+// Instantiation
+auto s = fmt::format(FMT_COMPILE("Hello {}, {}"), name, age);
+
+// Printing
+fmt::print(FMT_COMPILE("Hello {}, {}\n"), name, age);
+```
+
+`FMT_COMPILE` is a macro that expands to `fmt::compile("...")`.
+
+If your format string is wrong:
+```cpp
+FMT_COMPILE("Hello {") // missing brace
+```
+
+You will get a compile-time error, not a runtime crash which is a win for correctness.
 
 Extensibility is possible with this as well:
 ```cpp
