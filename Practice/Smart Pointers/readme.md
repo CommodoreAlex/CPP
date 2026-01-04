@@ -17,6 +17,20 @@ They also integrate with RAII (Resource Acquisition Is Initialization).
 Most modern C++ codebases follow a rule of using `unique_ptr` unless you specifically need a shared ownership, in which case, depending on the circumstances employ `weak_ptr` to break cyclical issues.
 
 ---
+Timeline of Smart Pointers
+---
+
+| C++ Standard      | Feature Added / Removed | Description                                                            |
+| ----------------- | ----------------------- | ---------------------------------------------------------------------- |
+| **C++11**         | `std::unique_ptr`       | Exclusive‑ownership smart pointer; move‑only; replaces `auto_ptr`.     |
+| **C++11**         | `std::shared_ptr`       | Reference‑counted shared ownership; thread‑safe refcounting.           |
+| **C++11**         | `std::weak_ptr`         | Non‑owning observer; breaks `shared_ptr` cycles.                       |
+| **C++11**         | `std::make_shared`      | Efficient, exception‑safe creation of `shared_ptr`.                    |
+| **C++14**         | `std::make_unique`      | Safe, exception‑proof creation of `unique_ptr`; fills the missing gap. |
+| **C++17**         | `std::auto_ptr` removed | Old, unsafe pointer removed from the language.                         |
+| **C++20 / C++23** | No new smart pointers   | Only improvements around constexpr, concepts, and library utilities.   |
+
+---
 Unique Pointer: Exclusive Ownership
 --
 
@@ -102,5 +116,3 @@ if (auto locked = wp.lock()) {
 `lock()` gives you a temporary `shared_ptr` if the object still exists
 
 ---
-
-
