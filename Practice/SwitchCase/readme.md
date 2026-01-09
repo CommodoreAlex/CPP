@@ -32,7 +32,12 @@ int main() {
 }
 ```
 
-Array-based switch-replacement with function pointers:
+Array-based switch-replacement with function pointers
+---
+
+This is actually faster, reducing overhead with a 'direct;indirect access'.
+
+Example:
 ```cpp
 #include <iostream>
 
