@@ -15,8 +15,10 @@ int main() {
   }
 
   // each time entry is copied from pair<const string, int>
-  std::for_each(std::begin(numbers), std::end(numbers), [](const std::pair<std::string, int>& entry) { std::cout << &entry.first << ", " << &entry.second << ": " << entry.first << " = " << entry.second << '\n'; });
+  std::for_each(std::begin(numbers), std::end(numbers), [](const std::pair<std::string, int>& entry) 
+  { std::cout << &entry.first << ", " << &entry.second << ": " << entry.first << " = " << entry.second << '\n'; });
 
   // this time entries are not copied, they have the same addresses
-  std::for_each(std::begin(numbers), std::end(numbers), [](const auto& entry) { std::cout << &entry.first << ", " << &entry.second << ": " << entry.first << " = " << entry.second << '\n'; });
+  std::for_each(std::begin(numbers), std::end(numbers), [](const auto& entry) 
+  { std::cout << &entry.first << ", " << &entry.second << ": " << entry.first << " = " << entry.second << '\n'; });
 }
