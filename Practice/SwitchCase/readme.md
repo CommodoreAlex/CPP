@@ -3,7 +3,34 @@
 
 
 
+Traditional Implementation:
+```cpp
+#include <iostream>
 
+void foo() { std::cout << "foo\n"; }
+void bar() { std::cout << "bar\n"; }
+void baz() { std::cout << "baz\n"; }
+
+int main() {
+  int op = 1;
+
+  switch (op) {
+    case 0:
+      foo();
+      break;
+    case 1:
+      bar();
+      break;
+    case 2:
+      baz();
+      break;
+
+    default:
+      std::cout << "Invalid option\n";
+      break;
+  }
+}
+```
 
 Array-based switch-replacement with function pointers:
 ```cpp
