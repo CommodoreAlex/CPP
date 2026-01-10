@@ -6,7 +6,7 @@
 3. Your own loops to run each case
 4. Your own PASS/FAIL criteria logic
 
-There is nothing external to assist 
+There is nothing external to assist (see ManualTest.cpp)
 
 
 ---
