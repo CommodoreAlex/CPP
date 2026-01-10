@@ -1,6 +1,6 @@
 # Immediately Invoked Functional Expression (IIFE)
 
-`std::invoke()` is a good alternative to calling Lambda's at the end with `();`
+`std::invoke()` is a good alternative to calling Lambda's at the end with `();` where it will immediately call the function.
 
 Example:
 ```cpp
