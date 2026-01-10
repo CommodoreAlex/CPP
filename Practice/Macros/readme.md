@@ -9,13 +9,14 @@ A macro is not a C++ feature, it is a text-rewriting tool that runs before C++ b
 
 Most things macros used to do can now be done better with:
 
+|Old macro use|Modern alternative|
+|---|---|
+|Constants|`constexpr` variables|
+|Inline functions|`inline` or lambdas|
+|Type-safe functions|Templates|
+|Include guards|`#pragma once`|
+|Debug logging|`constexpr if`, logging libraries|
 
-Old macro use	Modern alternative
-Constants	constexpr variables
-Inline functions	inline or lambdas
-Type-safe functions	Templates
-Include guards	#pragma once
-Debug logging	constexpr if, logging libraries
 
 ---
 
