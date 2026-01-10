@@ -17,6 +17,11 @@ Most things macros used to do can now be done better with:
 |Include guards|`#pragma once`|
 |Debug logging|`constexpr if`, logging libraries|
 
+They are often used for:
+1. Platform-specific compilation
+2. Header guards
+3. Interfacing with C libraries
+4. Metaprogramming in frameworks (Qt, Unreal Engine)
 
 ---
 
