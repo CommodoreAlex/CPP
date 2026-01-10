@@ -22,3 +22,32 @@ int main() {
     std::cout << out;
 }
 ```
+
+Extracting Functions with IIFE:
+```cpp
+#include <iostream>
+#include <numeric>
+#include <vector>
+
+int main() {
+  using Student = std::pair<std::vector<double>, std::string>;
+  const std::vector<Student> db { { { 5.0, 5.0, 5.0, 4.0 }, "John"},
+                                  { { 5.0, 5.0, 5.0, 4.0}, "Mark"},
+                                  { { 5.0, 5.0, 5.0, 4.0 }, "Jame"} };
+
+  auto ComputeAverages = [](const std::vector<Student>& db) {
+  std::vector<std::pair<double, std::string>> out;
+  for (auto& [marks, name] : db) {
+    double avg = std::accumulate(marks.begin(), marks.end(), 0.0)/marks.size();
+    out.push_back({avg, name});
+  }
+  return out;
+  };
+
+  auto averages = ComputeAverages(db);
+
+  for ( const auto &[avg, name] : averages ) {
+    std::cout << name << ": " << avg << '\n';
+  }
+  }
+```
