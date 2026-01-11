@@ -3,6 +3,8 @@
 You can parallelize most of the algorithms from the Standard Library, all you have to do is
 specify the first argument into the algorithm.
 
+This is only a preference where parallel custom behavior is not required - do not use execution policies unless you're okay with the decisions being made for you with no governance on how threading occurs.
+
 See example:
 ```cpp
 auto myVec = GenerateVector();
