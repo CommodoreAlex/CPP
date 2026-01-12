@@ -1,3 +1,5 @@
+# Factory Method
+
 The factory method defines an interface for creating an object, but lets subclasses decide which concrete class to instantiate, helping you avoid hard-coding `new` everywhere.
 
 ----
